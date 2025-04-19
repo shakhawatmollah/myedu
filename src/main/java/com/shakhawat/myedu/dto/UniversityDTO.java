@@ -1,5 +1,6 @@
 package com.shakhawat.myedu.dto;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -8,6 +9,7 @@ import lombok.NoArgsConstructor;
 
 import java.util.List;
 
+@Schema(description = "University Data Transfer Object")
 @Data
 @Builder
 @NoArgsConstructor
